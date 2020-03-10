@@ -1,0 +1,110 @@
+/*Color codes based on IntelliJ Darcula theme*/
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(src/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: RobotoMono-Regular;
+    src: url(src/RobotoMono-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto-Light;
+    src: url(src/Roboto-Light.ttf);
+}
+body{
+    font-family: Roboto-Regular;
+    background-color: #2f3239;
+}
+.navbar{
+    background-color: #3d424b;
+}
+.jumbotron h1,.jumbotron h2{
+    font-family: RobotoMono-Regular;
+}
+#fat div p{
+    font-family: Roboto-Light;
+    color: #E5E5E5;
+}
+.card{
+    box-shadow: 0px 2px 15px #04040457;
+}
+.card:hover{
+    border: 1px solid #6586fb;
+}
+.card-text{
+    font-family: Roboto-Light;
+    color: #e5e5e5;
+}
+.btn-gradient-green{
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-Light;
+    background-image: linear-gradient(to right, #11c593 0%, #1c8f8c 51%, #11c593 100%);
+    color: #e5e5e5;
+    padding: 8px 30px;
+    box-shadow: 0px 4px 20px #11c59373;
+}
+.btn-gradient-green:hover { 
+    background-image: linear-gradient(to right, #11c5939a 0%, #1c8f8c8a 51%, #11c5939a 100%);
+    box-shadow: 0px 4px 20px #11c5939a; 
+    color: rgb(228, 226, 226);
+}
+.btn-gradient-pink{
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-Light;
+    background-image: linear-gradient(to right, #f92672 0%, #fa3192 51%, #f92672 100%);
+    color: #e5e5e5;
+    width: 200px;
+    padding: 8px;
+    box-shadow: 0px 4px 20px #f9267373;
+}
+.btn-gradient-pink:hover { 
+    background-image: linear-gradient(to right, #6612319a 0%, #9120568a 51%, #6612319a 100%);
+    box-shadow: 0px 4px 20px #6612319a; 
+}
+#skills{
+    font-size: 18px;
+}
+.card{
+    min-width: 252px;
+}
+.p-25{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.bg-jumbotron{
+    background-color: #35383f;
+}
+.text-normal{
+    color: #cecff5;
+}
+.text-primary{
+    color: #6586fb;
+    font-size: 24px;
+}
+.text-pink{
+    color: #f92672;
+}
+.text-blue{
+    color: #63d2eb;
+}
+.text-green{
+    color: #0fd38b;
+}
+.text-orange{
+    color: #cf8822;
+}
+.text-purple{
+    color: #9e7bf5;
+}
+.text-gray{
+    color: #808080;
+}
+.circle-img{
+    border-radius: 50%;
+    border:2px solid #6586fb ;
+}
+.fully-round{
+    border-radius: 100%;
+}

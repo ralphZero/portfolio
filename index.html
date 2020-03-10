@@ -6,11 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Placide Ralph Sébastien | Portfolio</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-
+  <body class="text-normal">
+    <nav id="navbar-example2" class="navbar navbar-dark p-25">
+        <ul class="nav nav-pills ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="global">
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <div class="jumbotron bg-jumbotron p-25 pt-4 pb-4 d-flex flex-row mb-0">
+            <div class="mr-3">
+              <img src="https://i.imgur.com/nEIflBk.png" height="160" width="160" class="circle-img float-left" alt="That's me!!">
+            </div>
+            <div class="my-auto">
+              <h1><span class="text-orange">Hello,</span><span class="text-pink"> I'm</span></h1>
+              <h2>Ralph <span class="text-green">Sébastien</span> <span class="text-purple">Placide</span></h2>
+              <h6 class="text-gray"># Android Application Developer | Software Developer</h6>
+            </div>
+          </div>
+          <div id="about" class="p-25 mt-5 mb-5">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="text-primary">&lt;About Me&gt;</h3>
+                <p>Hello! I’m Ralph Sebastien Placide. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                  Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac.<br/>
+                  Duis nulla enim, condimentum nec ultricies.
+                </p>
+              </div>
+              <form class="my-auto">
+                <input type="button" class="btn-gradient-pink" value="Download Resume"/>
+              </form>
+            </div>
+            <div id="skills" class="text-gray mt-3">
+              <h5>// Skills</h5>
+              <div class="container m-0 p-0">
+                <div class="row row-cols-4">
+                  <div class="col-sm"><img src="src/java.svg"/></div>
+                  <div class="col-sm"><img src="src/php.svg"/></div>
+                  <div class="col-sm"><img src="src/flutter.svg"/></div>
+                  <div class="col-sm"><img src="src/html5.svg"/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="projects" class="p-25 mt-5 mb-5">
+            <h3 class="text-primary">&lt;Projects&gt;</h3>
+            <div class="container p-0 m-0">
+              <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-4 row-cols-md-2">
+                <div class="col-sm">
+                  <div class="card bg-jumbotron h-100">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Ap&eacute;rio</h5>
+                      <p class="card-text">Aperio is the place you go to buy any local paintings or craftsmanship made with passion from 100% local artists.</p>
+                      
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-block btn-primary stretched-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="card bg-jumbotron h-100">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Instagram - Clone</h5>
+                      <p class="card-text">Instagram clone is a photo sharing app similar to Instagram but using Parse as its backend.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-block btn-primary stretched-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="card bg-jumbotron h-100">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Twitter - Clone</h5>
+                      <p class="card-text">Twitter Clone is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes Twitter REST API.</p>
+                      
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-block btn-primary stretched-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="card bg-jumbotron h-100">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Simply Time Clock</h5>
+                      <p class="card-text">Simply Time Clock is a Clockface for the <b>Lenovo Smart Clock</b> using Flutter. Made during the Flutter Clock Challenge</p>
+                      
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-block btn-primary stretched-link">See more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-5 text-center">
+              <a href="#" class="btn btn-gradient-green">See more projects</a>
+            </div>
+          </div>
+          <div id="contact" class="p-25 mt-5 mb-5">
+              <h3 class="text-primary">&lt;Contact&gt;</h3>
+              <div class="d-flex justify-content-between">
+                <ul class="nav flex-column">
+                  <li>Email : <a href="mailto:placideralph@gmail.com" class="btn btn-link">placideralph@gmail.com</a></li>
+                  <li>Phone: +509 40842275</li>
+                </ul>
+                <ul class="nav">
+                  <li class="nav-item mr-3"><a href="#"><img src="src/facebook.svg"/></a></li>
+                  <li class="nav-item mr-3"><a href="#"><img class="fully-round" src="src/twitter.svg"/></a></li>
+                  <li class="nav-item mr-3"><a href="#"><img class="fully-round" src="src/github.svg"/></a></li>
+                  <li class="nav-item mr-3"><a href="#"><img src="src/linkedin.svg"/></a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
